@@ -21,7 +21,7 @@ app.use(
   );
 
 app.post("/auth/register", registerUser)
-app.post("/api/login", loginUser)
+app.post("/auth/login", loginUser)
 app.get("/auth/user", getUser)
 app.post("/auth/logout", logout)
 
